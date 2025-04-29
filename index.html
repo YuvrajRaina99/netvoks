@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netvoks – Launch Your Startup</title>
+    <!-- TailwindCSS CDN for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Favicon & Logo -->
+    <link rel="icon" type="image/png" href="assets/netvoks-logo.png" />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Netvoks helps first-time founders turn ideas into thriving startups – from validation to launch."
+    />
+  </head>
+  <body class="antialiased bg-white text-gray-800">
+    <!-- ========= Navigation ========= -->
+    <header class="fixed inset-x-0 top-0 z-50 bg-white shadow-sm">
+      <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <a href="#" class="flex items-center gap-2 text-2xl font-extrabold text-indigo-600">
+          <img src="assets/netvoks-logo.png" alt="Netvoks logo" class="h-8 w-8" />
+          Netvoks
+        </a>
+
+        <nav class="hidden items-center gap-10 md:flex">
+          <a href="#features" class="hover:text-indigo-600">Features</a>
+          <a href="#process" class="hover:text-indigo-600">Process</a>
+          <a href="#testimonials" class="hover:text-indigo-600">Success Stories</a>
+          <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        </nav>
+
+        <a
+          href="#get-started"
+          class="hidden rounded-full bg-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-indigo-500 md:inline"
+          >Get Started</a
+        >
+
+        <button id="menuBtn" class="md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-8 w-8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobileMenu" class="hidden flex-col gap-4 bg-white px-6 pb-6 shadow-md md:hidden">
+        <a href="#features" class="py-1">Features</a>
+        <a href="#process" class="py-1">Process</a>
+        <a href="#testimonials" class="py-1">Success Stories</a>
+        <a href="#contact" class="py-1">Contact</a>
+        <a href="#get-started" class="mt-2 w-max rounded-full bg-indigo-600 px-5 py-2 text-sm font-semibold text-white shadow-sm">Get Started</a>
+      </div>
+    </header>
+
+    <!-- ========= Hero ========= -->
+    <section class="relative flex min-h-screen items-center justify-center bg-gradient-to-br from-indigo-50 to-white pt-24 overflow-hidden">
+      <div class="mx-auto max-w-5xl text-center">
+        <h1 class="text-4xl font-extrabold leading-snug text-gray-900 sm:text-5xl lg:text-6xl">
+          Build<br class="block sm:hidden" />
+          <span class="text-indigo-600">your startup</span> from idea to launch
+        </h1>
+        <p class="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
+          Netvoks gives first-time founders the guidance, tools, and network they need to turn napkin
+          sketches into thriving businesses.
+        </p>
+        <a href="#get-started" class="mt-8 inline-flex items-center gap-2 rounded-full bg-indigo-600 px-7 py-3 text-lg font-semibold text-white shadow-lg transition hover:bg-indigo-500">
+          Start building
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-5 w-5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L21 12l-3.75 5.25M3 12h18" />
+          </svg>
+        </a>
+      </div>
+      <!-- Decorative blob -->
+      <svg class="pointer-events-none absolute -left-20 bottom-0 h-96 w-96 opacity-40 sm:h-[28rem] sm:w-[28rem]" viewBox="0 0 700 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill="url(#a)" d="M350 0c92.8 0 179.5 35.8 244.5 93.8 65 58 106.5 138.2 111.5 223.2 5 85-25 174.6-88 241-63 66.5-158.4 109.2-257.3 109.2-98.9 0-194.2-42.7-257.2-109.2-63-66.4-93-156-88-241 5-85 46.4-165.2 111.4-223.2C170.5 35.8 257.2 0 350 0Z" />
+        <defs>
+          <linearGradient id="a" x1="0" x2="700" y1="0" y2="700" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#6366F1" />
+            <stop offset="1" stop-color="#A5B4FC" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </section>
+
+    <!-- ========= Features ========= -->
+    <section id="features" class="py-24">
+      <div class="mx-auto max-w-6xl px-6">
+        <h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">Everything you need to get off the ground</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-center text-lg text-gray-600">
+          From ideation worksheets to investor decks – Netvoks is the startup co-pilot you've been looking for.
+        </p>
+
+        <div class="mt-16 grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- Feature 1 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-100">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-7 w-7 text-indigo-600"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125h3.375a1.125 1.125 0 001.125-1.125V15c0-.621.504-1.125 1.125-1.125h3a1.125 1.125 0 011.125 1.125v4.875c0 .621.504 1.125 1.125 1.125h3.375c.621 0 1.125-.504 1.125-1.125V9.75"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold">Idea Validation</h3>
+            <p class="mt-2 text-gray-600">Rapid experiments & surveys to test market demand before you build.</p>
+          </div>
+          <!-- Feature 2 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-100">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-7 w-7 text-indigo-600"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 20.25a8.25 8.25 0 0115 0v.375a.375.375 0 01-.375.375H4.875a.375.375 0 01-.375-.375V20.25z"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold">Mentor Network</h3>
+            <p class="mt-2 text-gray-600">Seasoned founders & operators guide you every step.</p>
+          </div>
+          <!-- Feature 3 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-100">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-7 w-7 text-indigo-600"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 16.5L10.5 10.5 13.5 13.5 19.5 7.5"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold">MVP Toolkit</h3>
+            <p class="mt-2 text-gray-600">Drag-and-drop builders to ship a prototype in weeks.</p>
+          </div>
+          <!-- Feature 4 -->
+          <div class="flex flex-col items-center text-center">
+            <div class="mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-indigo-100">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-7 w-7 text-indigo-600"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6V3m0 0l3 3m-3-3L9 6m3 15v-3m0 0l3 3m-3-3l-3 3m9-9h3m0 0l-3 3m3-3l-3-3M3 12H6m0 0l-3 3m3-3l-3-3"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold">Funding Readiness</h3>
+            <p class="mt-2 text-gray-600">Investor pitch deck templates & warm intros when ready.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= Process ========= -->
+    <section id="process" class="bg-gray-50 py-24">
+      <div class="mx-auto max-w-6xl px-6">
+        <h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">Our 4-step launch framework</h2>
+
+        <div class="mt-16 grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+          <!-- Step 1 -->
+          <div class="relative rounded-lg bg-white p-8 shadow md:hover:shadow-lg">
+            <span class="absolute -top-4 left-4 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 text-white">1</span>
+            <h3 class="mt-4 text-lg font-bold">Discover</h3>
+            <p class="mt-2 text-gray-600">Refine your idea & target audience with structured sprints.</p>
+          </div>
+          <!-- Step 2 -->
+          <div class="relative rounded-lg bg-white p-8 shadow md:hover:shadow-lg">
+            <span class="absolute -top-4 left-4 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 text-white">2</span>
+            <h3 class="mt-4 text-lg font-bold">Validate</h3>
+            <p class="mt-2 text-gray-600">Run real-world tests to prove traction & product-market fit.</p>
+          </div>
+          <!-- Step 3 -->
+          <div class="relative rounded-lg bg-white p-8 shadow md:hover:shadow-lg">
+            <span class="absolute -top-4 left-4 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 text-white">3</span>
+            <h3 class="mt-4 text-lg font-bold">Build</h3>
+            <p class="mt-2 text-gray-600">Access our no-code & dev marketplace to craft your MVP.</p>
+          </div>
+          <!-- Step 4 -->
+          <div class="relative rounded-lg bg-white p-8 shadow md:hover:shadow-lg">
+            <span class="absolute -top-4 left-4 flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 text-white">4</span>
+            <h3 class="mt-4 text-lg font-bold">Launch & Grow</h3>
+            <p class="mt-2 text-gray-600">Get PR templates, growth playbooks, and investor intros.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= Testimonials ========= -->
+    <section id="testimonials" class="py-24">
+      <div class="mx-auto max-w-6xl px-6">
+        <h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">Founder success stories</h2>
+
+        <div class="mt-16 space-y-12 md:grid md:grid-cols-3 md:gap-10 md:space-y-0">
+          <!-- Testimonial 1 -->
+          <div class="rounded-lg bg-white p-8 shadow md:hover:shadow-lg">
+            <p class="text-gray-700">“Netvoks took me from idea to paying customers in 4 months. Their mentor network is pure gold.”</p>
+            <div class="mt-6 flex items-center gap-3">
+              <img src="https://i.pravatar.cc/80?img=32" alt="Avatar" class="h-10 w-10 rounded-full" />
+              <div>
+                <p class="font-semibold text-gray-900">Sara Kim</p>
+                <p class="text-sm text-gray-600">Founder, Locafy</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="rounded-lg bg-white p-8 shadow md:hover:shadow-lg">
+            <p class="text-gray-700">“The validation sprint saved us $50k in dev costs. We pivoted early and raised a pre-seed round.”</p>
+            <div class="mt-6 flex items-center gap-3">
+              <img src="https://i.pravatar.cc/80?img=14" alt="Avatar" class="h-10 w-10 rounded-full" />
+              <div>
+                <p class="font-semibold text-gray-900">David Chen</p>
+                <p class="text-sm text-gray-600">Co-Founder, SprintOps</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="rounded-lg bg-white p-8 shadow md:hover:shadow-lg">
+            <p class="text-gray-700">“From prototype to App Store feature in 7 weeks. Couldn’t have done it without Netvoks resources.”</p>
+            <div class="mt-6 flex items-center gap-3">
+              <img src="https://i.pravatar.cc/80?img=5" alt="Avatar" class="h-10 w-10 rounded-full" />
+              <div>
+                <p class="font-semibold text-gray-900">Maria Lopez</p>
+                <p class="text-sm text-gray-600">CEO, HabitFlow</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========= Call to Action ========= -->
+    <section id="get-started" class="relative overflow-hidden bg-indigo-600 py-24 text-white">
+      <div class="mx-auto max-w-5xl px-6 text-center">
+        <h2 class="text-3xl font-extrabold sm:text-4xl">Ready to build your dream startup?</h2>
+        <p class="mx-auto mt-4 max-w-2xl text-lg text-indigo-100">Join Netvoks today and unlock the playbook used by hundreds of successful founders.</p>
+        <a href="mailto:hello@netvoks.com" class="mt-8 inline-block rounded-full bg-white px-8 py-3 font-semibold text-indigo-600 shadow-lg transition hover:shadow-xl">Get in touch</a>
+      </div>
+
+      <!-- Decorative waves -->
+      <svg class="absolute inset-0 -z-10 h-full w-full object-cover opacity-30" viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#fff" fill-opacity="1" d="M0,64L48,106.7C96,149,192,235,288,266.7C384,299,480,277,576,240C672,203,768,149,864,149.3C960,149,1056,203,1152,202.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+      </svg>
+    </section>
+
+    <!-- ========= Footer ========= -->
+    <footer id="contact" class="bg-gray-900 py-12 text-gray-400">
+      <div class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 sm:flex-row">
+        <p>© <span id="year"></span> Netvoks. All rights reserved.</p>
+        <div class="flex gap-6">
+          <a href="#" class="hover:text-white">Privacy</a>
+          <a href="#" class="hover:text-white">Terms</a>
+          <a href="mailto:hello@netvoks.com" class="hover:text-white">hello@netvoks.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ========= Scripts ========= -->
+    <script>
+      // Set current year in footer
+      const yearEl = document.getElementById("year");
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      // Mobile nav toggle
+      const btn = document.getElementById("menuBtn");
+      const menu = document.getElementById("mobileMenu");
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+    </script>
+  </body>
+</html>
